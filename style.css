@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: #32213A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.box-1 {
+    width: 800px;
+    height:500px;
+    background-color: #383B53;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.display{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D4D6B9;
+    margin-bottom: 50px;
+    font-size: 150px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.button button
+{
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    background-color: #d0ba41;
+    font-size: 25px;
+}
+
+.button button:hover{
+    background-color: rgb(243, 176, 69);
+    transform: scale(1.1);
+}
